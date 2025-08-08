@@ -42,7 +42,7 @@ The aim is to identify high-performing areas, underperforming products, and oppo
 - **Technology** category contributed the highest sales and profit margin.
 - **West** region outperformed others in both sales and profit.
 - Sales peaked during **year-end months** indicating a strong seasonal trend.
-- The states that contributed most to sales were **California**,**New York** and **Texas**  with **California** contibuting the most.
+- The states that contributed most to sales were **California** ,**New York**  and **Texas**  with **California** contibuting the most.
 - High-profit items were often concentrated in **Technology** and **Office Supplies** categories.
 
 ---
