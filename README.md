@@ -1,81 +1,50 @@
 # Ecommerce-Sales-Analysis-Dashboard-EXCEL-
-1. Business Problems Addressed
-The dashboard aims to solve key e-commerce business questions:
+# Ecommerce Sales Analysis Dashboard
 
-Sales Performance Tracking
+## **Business Problem**
+The company needs to monitor and improve its ecommerce performance by understanding sales trends, customer purchasing behavior, and profit distribution across different categories, regions, and customer segments.  
+The aim is to identify high-performing areas, underperforming products, and opportunities for growth.
 
-How are total sales, profit, and order volumes trending over time?
+---
 
-Profitability Analysis
+## **KPIs Tracked**
+- **Total Sales** – Measures total revenue generated.
+- **Total Quantity Sold** – Tracks total units sold.
+- **Total Profit** – Indicates profitability after costs..
+- **Profit Margin (%)** – Percentage of sales converted into profit.
+- **Top Categories & Sub-Categories** – Identifies best-selling product lines.
+- **Sales by Region** – Monitors geographic performance.
+- **Monthly Sales Trend** – Identifies seasonality and growth patterns.
 
-Which products, categories, or regions are most/least profitable?
+---
 
-Customer & Segment Insights
+## **Process**
+1. **Data Collection**
+   - Imported ecommerce sales transaction data including order details, product categories, sales, profit, region, and ship mode.
+   
+2. **Data Cleaning & Preparation**
+   - Removed null values.
+   - Standardized date formats.
+   - Verified numeric data types for sales, profit, and quantity.
 
-Which customer segments generate the highest revenue and profit?
+3. **Data Analysis**
+   - Aggregated sales, profit, and quantity at various levels (Category, Region, Month, Customer Segment).
+   - Calculated KPIs such as Profit Margin.
+   - Created pivot tables for quick exploration.
 
-Shipping & Delivery Efficiency
+4. **Dashboard Creation**
+   - Used Excel Pivot Tables and Pivot Charts.
+   - Added slicers for dynamic filtering (Region, Category, Year).
+   - Designed charts for monthly trends, category performance, and profitability.
 
-How do shipping modes affect delivery time, sales, and profitability?
+---
 
-Regional & Market Trends
+## **Insights Derived**
+- **Technology** category contributed the highest sales and profit margin.
+- **West** region outperformed others in both sales and profit.
+- Sales peaked during **year-end months** indicating a strong seasonal trend.
+- Some of the states that contributed most to sales were **California**,**New York** and **Texas** with **California** contibuting the most.
+- High-profit items were often concentrated in **Technology** and **Office Supplies** categories.
 
-Which regions/states contribute most to sales and profit?
+---
 
-Discount Impact
-
-How do discounts affect profit margins?
-
-2. KPIs Used
-The dashboard monitors the following Key Performance Indicators:
-
-KPI	Description
-Total Sales	Total revenue generated across all orders
-Total Profit	Net profit after discounts and costs
-Total Quantity Sold	Units sold in the selected period
-Average Order Value (AOV)	Sales ÷ Number of Orders
-Profit Margin %	(Profit ÷ Sales) × 100
-Orders by Segment	Consumer, Corporate, Home Office
-Sales by Region	Regional performance in $
-Category/Sub-Category Sales	Revenue breakdown by product groups
-Top N Products	Highest revenue/profit generating products
-
-3. Process Followed
-Step 1 – Data Collection
-Data sourced from an internal sales database (Order ID, Product details, Shipping info, Customer data, Financial metrics).
-
-Covers multi-year sales data for US e-commerce transactions.
-
-Step 2 – Data Cleaning & Preparation
-Removed duplicates and invalid order entries.
-
-Formatted dates, ensured correct data types for numeric fields.
-
-Standardized product categories and regions.
-
-Step 3 – KPI & Metric Calculations
-Created formulas for Sales, Profit, AOV, and Margin %.
-
-Aggregated sales by year, month, category, region, and customer segment.
-
-Step 4 – Dashboard Development
-Used Pivot Tables and Pivot Charts to visualize trends.
-
-Linked charts to interactive slicers for:
-
-Year
-
-Region
-
-Category
-
-Segment
-
-Added conditional formatting to highlight high/low performers.
-
-Step 5 – Analysis & Insight Extraction
-Compared performance YoY.
-
-Identified underperforming product lines and regions.
-
-Evaluated effect of discounts on profitability.
